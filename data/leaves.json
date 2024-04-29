@@ -1,0 +1,840 @@
+{
+  "entities_to_extract_en": [
+    "start of the leave",
+    "end of the leave",
+    "leave replacement",
+    "type of the leave",
+    "leave reason"
+  ],
+  "entities_to_extract_pl": [
+    "początek urlopu",
+    "koniec urlopu",
+    "zastępstwo",
+    "rodzaj urlopu",
+    "powód urlopu"
+  ],
+  "texts": [
+    {
+      "data": "Zgłaszam urlop chorobowy w dniach 1-2 października 2020r. Zastępuje mnie Jan Kowalski.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 października 2020r."
+        ],
+        "koniec urlopu": [
+          "2 października 2020r."
+        ],
+        "zastępstwo": [
+          "Jan Kowalski"
+        ],
+        "rodzaj urlopu": [
+          "urlop chorobowy"
+        ],
+        "powód urlopu": [
+          "choroba"
+        ]
+      },
+      "id": 0
+    },
+    {
+      "data": "Idę na L4 w dniach 1 do 2 IX, bo mam grypę. Zastąpi mnie Nowak.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 IX"
+        ],
+        "koniec urlopu": [
+          "2 IX"
+        ],
+        "zastępstwo": [
+          "Nowak"
+        ],
+        "rodzaj urlopu": [
+          "L4"
+        ],
+        "powód urlopu": [
+          "grypa"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "data": "W dniach od 4 października do 10 października 2020r. będę na urlopie wypoczynkowym. Zastępuje mnie Jan Kowalski.",
+      "ground_truth": {
+        "początek urlopu": [
+          "4 października 2020r."
+        ],
+        "koniec urlopu": [
+          "10 października 2020r."
+        ],
+        "zastępstwo": [
+          "Jan Kowalski"
+        ],
+        "rodzaj urlopu": [
+          "urlop wypoczynkowy"
+        ],
+        "powód urlopu": [
+          "wypoczynek"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "data": "Idę na urlop okolicznościowy w dniach 11-17 lipca. Mam ślub syna. W ważnych sprawach zastępuje mnie Maciej.",
+      "ground_truth": {
+        "początek urlopu": [
+          "11 lipca"
+        ],
+        "koniec urlopu": [
+          "17 lipca"
+        ],
+        "zastępstwo": [
+          "Maciej"
+        ],
+        "rodzaj urlopu": [
+          "urlop okolicznościowy"
+        ],
+        "powód urlopu": [
+          "ślub syna"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "data": "Potrzebuję wolnego w dniach 01/12/2020 - 5/12/2020.",
+      "ground_truth": {
+        "początek urlopu": [
+          "01/12/2020"
+        ],
+        "koniec urlopu": [
+          "5/12/2020"
+        ],
+        "zastępstwo": "n/a",
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a"
+      },
+      "id": 4
+    },
+    {
+      "data": "Zgłaszam opiekę nad dziekiem w dniu 1 IX 2020. W tym czasie zastępuje mnie Szymon.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 IX 2020"
+        ],
+        "koniec urlopu": [
+          "1 IX 2020"
+        ],
+        "zastępstwo": [
+          "Szymon"
+        ],
+        "rodzaj urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "powód urlopu": [
+          "opieka nad dzieckiem"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "data": "Biorę urlop okolicznościowy od 1 stycznia do 2 stycznia 2023.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 stycznia 2023"
+        ],
+        "koniec urlopu": [
+          "2 stycznia 2023"
+        ],
+        "zastępstwo": "n/a",
+        "rodzaj urlopu": [
+          "urlop okolicznościowy"
+        ],
+        "powód urlopu": "n/a"
+      },
+      "id": 6
+    },
+    {
+      "data": "Biorę urlop okolicznościowy, z powodu pogrzebu rodzica od 1 stycznia do 2 stycznia 2023.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 stycznia 2023"
+        ],
+        "koniec urlopu": [
+          "2 stycznia 2023"
+        ],
+        "zastępstwo": "n/a",
+        "rodzaj urlopu": [
+          "urlop okolicznościowy"
+        ],
+        "powód urlopu": [
+          "pogrzeb rodzica"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "data": "Biorę wolne 15-17 października.",
+      "ground_truth": {
+        "początek urlopu": [
+          "15 października"
+        ],
+        "koniec urlopu": [
+          "17 października"
+        ],
+        "zastępstwo": "n/a",
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a"
+      },
+      "id": 8
+    },
+    {
+      "data": "Biorę wolne do 13 maja od 17 czerwca. Na zastepswo przyjdzie nowak. Muszę zająć się matką. Pozdrawiam.",
+      "ground_truth": {
+        "początek urlopu": [
+          "13 maja"
+        ],
+        "koniec urlopu": [
+          "17 czerwca"
+        ],
+        "zastępstwo": [
+          "nowak"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": [
+          "zajęcie się matką"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "data": "Biorę wolne od 12.05 do 13.06. Będę wtedy w Hiszpanii na wakacjach. Na zastępstwo przyjdzie Kowalski. Pozdrawiam.",
+      "ground_truth": {
+        "początek urlopu": [
+          "12.05"
+        ],
+        "koniec urlopu": [
+          "13.06"
+        ],
+        "rodzaj urlopu": [
+          "urlop wypoczynkowy"
+        ],
+        "powód urlopu": [
+          "wakacje w Hiszpanii"
+        ],
+        "zastępstwo": [
+          "Kowalski"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "data": "Biorę wolne od 15 do 17 grudnia.",
+      "ground_truth": {
+        "początek urlopu": [
+          "15 grudnia"
+        ],
+        "koniec urlopu": [
+          "17 grudnia"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 11
+    },
+    {
+      "data": "Biorę wolne od października do maja - muszę zająć się dzieckiem. Na zastępstwie jest Marcin.",
+      "ground_truth": {
+        "początek urlopu": [
+          "październik"
+        ],
+        "koniec urlopu": [
+          "maj"
+        ],
+        "rodzaj urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "powód urlopu": [
+          "zajęcie się dzieckiem"
+        ],
+        "zastępstwo": [
+          "Marcin"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "data": "Biorę wolne w dniach 20-21 września 2023.",
+      "ground_truth": {
+        "początek urlopu": [
+          "20 września 2023"
+        ],
+        "koniec urlopu": [
+          "21 września 2023"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 13
+    },
+    {
+      "data": "Chciałabym poprosić o opiekę nad dzieckiem w dniach 3-10 marca. Zastąpi mnie Marta Lewandowska.",
+      "ground_truth": {
+        "początek urlopu": [
+          "3 marca"
+        ],
+        "koniec urlopu": [
+          "10 marca"
+        ],
+        "rodzaj urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "powód urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "zastępstwo": [
+          "Marta Lewandowska"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "data": "Chciałbym poprosić o urlop - opiekę nad dzieckiem w dniach od 3 marca do 10 marca. Zastąpi mnie Marta Lewandowska.",
+      "ground_truth": {
+        "początek urlopu": [
+          "3 marca"
+        ],
+        "koniec urlopu": [
+          "10 marca"
+        ],
+        "rodzaj urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "powód urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "zastępstwo": [
+          "Marta Lewandowska"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "data": "Chciałbym poprosić o urlop macierzyński od kwietnia do października.",
+      "ground_truth": {
+        "początek urlopu": [
+          "kwiecień"
+        ],
+        "koniec urlopu": [
+          "październik"
+        ],
+        "rodzaj urlopu": [
+          "urlop macierzyński"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 16
+    },
+    {
+      "data": "Chciałbym poprosić o urlop ojcowski od kwietnia do października.",
+      "ground_truth": {
+        "początek urlopu": [
+          "kwiecień"
+        ],
+        "koniec urlopu": [
+          "październik"
+        ],
+        "rodzaj urlopu": [
+          "urlop ojcowski"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 17
+    },
+    {
+      "data": "Chciałbym poprosić o urlop - opiekę nad dzieckiem w dniach 3-10 marca. Zastąpi mnie Marta Lewandowska.",
+      "ground_truth": {
+        "początek urlopu": [
+          "3 marca"
+        ],
+        "koniec urlopu": [
+          "10 marca"
+        ],
+        "rodzaj urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "powód urlopu": [
+          "opieka nad dzieckiem"
+        ],
+        "zastępstwo": [
+          "Marta Lewandowska"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "data": "Chciałbym poprosić o wolne - urlop szkoleniowy w dniach 5-10 kwietnia. Zastąpi mnie Mateusz Jach.",
+      "ground_truth": {
+        "początek urlopu": [
+          "5 kwietnia"
+        ],
+        "koniec urlopu": [
+          "10 kwietnia"
+        ],
+        "rodzaj urlopu": [
+          "urlop szkoleniowy"
+        ],
+        "powód urlopu": [
+          "szkolenie"
+        ],
+        "zastępstwo": [
+          "Mateusz Jach"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "data": "Chcę iść na chorobowe od 10 marca do 11 marca 2023, bo jestem zmęczony pracą.",
+      "ground_truth": {
+        "początek urlopu": [
+          "10 marca 2023"
+        ],
+        "koniec urlopu": [
+          "11 marca 2023"
+        ],
+        "rodzaj urlopu": [
+          "urlop chorobowy"
+        ],
+        "powód urlopu": [
+          "zmęczenie pracą"
+        ],
+        "zastępstwo": "n/a"
+      },
+      "id": 20
+    },
+    {
+      "data": "Chcę iść na chorobowe w dniach 1-2 listopada 2021 roku.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 listopada 2021"
+        ],
+        "koniec urlopu": [
+          "2 listopada 2021"
+        ],
+        "rodzaj urlopu": [
+          "urlop chorobowy"
+        ],
+        "powód urlopu": [
+          "choroba"
+        ],
+        "zastępstwo": "n/a"
+      },
+      "id": 21
+    },
+    {
+      "data": "Biorę wolne od 1 do 15 maja 2021 roku. Chcę zwiększyć swoje umiejętności. Zastępstuje mnie Karol.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 maja 2021"
+        ],
+        "koniec urlopu": [
+          "15 maja 2021"
+        ],
+        "rodzaj urlopu": [
+          "urlop szkoleniowy"
+        ],
+        "powód urlopu": [
+          "chęć zwiększenia swoich umiejętności"
+        ],
+        "zastępstwo": [
+          "Karol"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "data": "Chcę iść na wolne od 1 do 15 października 2021 roku. Chcę zwiększyć swoje kompetencje. Zastępstwo niewymagane.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 października 2021"
+        ],
+        "koniec urlopu": [
+          "15 października 2021"
+        ],
+        "rodzaj urlopu": [
+          "urlop szkoleniowy"
+        ],
+        "powód urlopu": [
+          "chęć zwiększenia swoich kompetencji"
+        ],
+        "zastępstwo": [
+          "niewymagane"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "data": "Chcę iść na wolne od 1 do 5 sierpnia 2019 roku.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 sierpnia 2019 roku"
+        ],
+        "koniec urlopu": [
+          "5 sierpnia 2019 roku"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 24
+    },
+    {
+      "data": "Chcę iść na wolne od 10 września 2023 do 11 marca 2024, bo jestem zmęczony pracą.",
+      "ground_truth": {
+        "początek urlopu": [
+          "10 września 2023"
+        ],
+        "koniec urlopu": [
+          "11 marca 2024"
+        ],
+        "rodzaj urlopu": [
+          "urlop chorobowy"
+        ],
+        "powód urlopu": [
+          "zmęczenie pracą"
+        ],
+        "zastępstwo": "n/a"
+      },
+      "id": 25
+    },
+    {
+      "data": "Zgłaszam wolne od 17 do 25 sierpnia tego roku. Nikt mnie nie zastępuje.",
+      "ground_truth": {
+        "początek urlopu": [
+          "17 sierpnia"
+        ],
+        "koniec urlopu": [
+          "25 sierpnia"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "nikt nie zastępuje"
+        ]
+      },
+      "id": 26
+    },
+    {
+      "data": "Chcę iść na wolne od 17 marca do 19 lipca. Zastąpi mnie Janek.",
+      "ground_truth": {
+        "początek urlopu": [
+          "17 marca"
+        ],
+        "koniec urlopu": [
+          "19 lipca"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "Janek"
+        ]
+      },
+      "id": 27
+    },
+    {
+      "data": "Zgłaszam urlop w dniach 1-15 maja 2021 roku. Chcę zwiększyć swoje umiejętności. Zastępstuje mnie Magda.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 maja 2021 roku"
+        ],
+        "koniec urlopu": [
+          "15 maja 2021 roku"
+        ],
+        "rodzaj urlopu": [
+          "urlop szkoleniowy"
+        ],
+        "powód urlopu": [
+          "chęć zwiększenia swoich umiejętności"
+        ],
+        "zastępstwo": [
+          "Magda"
+        ]
+      },
+      "id": 28
+    },
+    {
+      "data": "Chcę iść na wolne w dniach 10-11 marca 2023.",
+      "ground_truth": {
+        "początek urlopu": [
+          "10 marca 2023"
+        ],
+        "koniec urlopu": [
+          "11 marca 2023"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 29
+    },
+    {
+      "data": "Zgłaszam wolne w dniach 17-19 lipca 2016. Zastąpi mnie Jakub Kalitkowski.",
+      "ground_truth": {
+        "początek urlopu": [
+          "17 lipca 2016"
+        ],
+        "koniec urlopu": [
+          "19 lipca 2016"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "Jakub Kalitkowski"
+        ]
+      },
+      "id": 30
+    },
+    {
+      "data": "Nie będzie mnie od 2 stycznia do 3 stycznia 2023. Na zastępstwo proponuję piotra małkowskiego.",
+      "ground_truth": {
+        "początek urlopu": [
+          "2 stycznia 2023"
+        ],
+        "koniec urlopu": [
+          "3 stycznia 2023"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "piotr małkowski"
+        ]
+      },
+      "id": 31
+    },
+    {
+      "data": "Chcę wziąć urlop wypoczynkowy od poniedziałku do piątku. Urlop nie wymaga zastępstwa.",
+      "ground_truth": {
+        "początek urlopu": [
+          "poniedziałek"
+        ],
+        "koniec urlopu": [
+          "piątek"
+        ],
+        "rodzaj urlopu": [
+          "urlop wypoczynkowy"
+        ],
+        "powód urlopu": [
+          "wypoczynek"
+        ],
+        "zastępstwo": [
+          "nie wymaga"
+        ]
+      },
+      "id": 32
+    },
+    {
+      "data": "Chcę zrobić sobie wolne od 17 do 25 lipca tego roku. Nikt mnie nie zastępuje.",
+      "ground_truth": {
+        "początek urlopu": [
+          "17 lipca"
+        ],
+        "koniec urlopu": [
+          "25 lipca"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "nikt nie zastępuje"
+        ]
+      },
+      "id": 33
+    },
+    {
+      "data": "Chcę zrobić wolne w dniach 1-3 marca 2020 roku.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 marca 2020"
+        ],
+        "koniec urlopu": [
+          "3 marca 2020"
+        ],
+        "rodzaj urlopu": "n/a",
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 34
+    },
+    {
+      "data": "Idę na urlop rodzicielski od lipca do grudnia. Nie jest potrzebne zastępstwo.",
+      "ground_truth": {
+        "początek urlopu": [
+          "lipiec"
+        ],
+        "koniec urlopu": [
+          "grudzień"
+        ],
+        "rodzaj urlopu": [
+          "urlop rodzicielski"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "nie jest potrzebne"
+        ]
+      },
+      "id": 35
+    },
+    {
+      "data": "Idę na urlop szkoleniowy w dniach 1-3 listopada 2023.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 listopada 2023"
+        ],
+        "koniec urlopu": [
+          "3 listopada 2023"
+        ],
+        "rodzaj urlopu": [
+          "urlop szkoleniowy"
+        ],
+        "powód urlopu": [
+          "szkolenie"
+        ],
+        "zastępstwo": "n/a"
+      },
+      "id": 36
+    },
+    {
+      "data": "Idę na urlop wypoczynkowy od 12.07 do 30.07. Na zastępstwie będzie Mariusz Kowalski.",
+      "ground_truth": {
+        "początek urlopu": [
+          "12.07"
+        ],
+        "koniec urlopu": [
+          "30.07"
+        ],
+        "rodzaj urlopu": [
+          "urlop wypoczynkowy"
+        ],
+        "powód urlopu": [
+          "wypoczynek"
+        ],
+        "zastępstwo": [
+          "Mariusz Kowalski"
+        ]
+      },
+      "id": 37
+    },
+    {
+      "data": "Nikt mnie nie zastępuje. Chcę iść na chorobowe w dniach 1-2 listopada 2021 roku.",
+      "ground_truth": {
+        "początek urlopu": [
+          "1 listopada 2021 roku"
+        ],
+        "koniec urlopu": [
+          "2 listopada 2021 roku"
+        ],
+        "rodzaj urlopu": [
+          "urlop chorobowy"
+        ],
+        "powód urlopu": [
+          "choroba"
+        ],
+        "zastępstwo": [
+          "nikt nie zastępuje"
+        ]
+      },
+      "id": 38
+    },
+    {
+      "data": "Planuję skorzystać z urlopu rodzicielskiego od 15 września do 15 października.",
+      "ground_truth": {
+        "początek urlopu": [
+          "15 września"
+        ],
+        "koniec urlopu": [
+          "15 października"
+        ],
+        "rodzaj urlopu": [
+          "urlop rodzicielski"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 39
+    },
+    {
+      "data": "Proszę o przyznanie mi urlopu macierzyńskiego od 10.02 do 10.08. Zastępować mnie będzie Anna Nowak.",
+      "ground_truth": {
+        "początek urlopu": [
+          "10.02"
+        ],
+        "koniec urlopu": [
+          "10.08"
+        ],
+        "rodzaj urlopu": [
+          "urlop macierzyński"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "Anna Nowak"
+        ]
+      },
+      "id": 40
+    },
+    {
+      "data": "Zamierzam wziąć urlop rodzicielski od X lipca do XV września. Zastępstwo nie jest wymagane.",
+      "ground_truth": {
+        "początek urlopu": [
+          "X lipca"
+        ],
+        "koniec urlopu": [
+          "XV września"
+        ],
+        "rodzaj urlopu": [
+          "urlop rodzicielski"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": [
+          "nie jest wymagane"
+        ]
+      },
+      "id": 41
+    },
+    {
+      "data": "Zamierzam wziąć urlop szkoleniowy w dniach 14-18 maja w celu podniesienia swoich umiejętności zawodowych.",
+      "ground_truth": {
+        "początek urlopu": [
+          "14 maja"
+        ],
+        "koniec urlopu": [
+          "18 maja"
+        ],
+        "rodzaj urlopu": [
+          "urlop szkoleniowy"
+        ],
+        "powód urlopu": [
+          "podniesienie swoich umiejętności zawodowych"
+        ],
+        "zastępstwo": "n/a"
+      },
+      "id": 42
+    },
+    {
+      "data": "Zgłaszam urlop macierzyński od lutego do czerwca.",
+      "ground_truth": {
+        "początek urlopu": [
+          "luty"
+        ],
+        "koniec urlopu": [
+          "czerwiec"
+        ],
+        "rodzaj urlopu": [
+          "urlop macierzyński"
+        ],
+        "powód urlopu": "n/a",
+        "zastępstwo": "n/a"
+      },
+      "id": 43
+    }
+  ]
+}

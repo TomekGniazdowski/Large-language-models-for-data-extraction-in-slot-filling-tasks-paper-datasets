@@ -1,0 +1,1256 @@
+{
+  "entities_to_extract_en": [
+    "delegation type",
+    "cities or regions of the delegation",
+    "departure date",
+    "return date",
+    "purpose of the trip",
+    "countries of delegation",
+    "means of transport",
+    "cost of food",
+    "cost of accommodation",
+    "cost of transports",
+    "other costs",
+    "bank account number"
+  ],
+  "entities_to_extract_pl": [
+    "typ delegacji (krajowa lub zagraniczna)",
+    "miasta lub regiony delegacji",
+    "data wyjazdu",
+    "data powrotu",
+    "cele podróży",
+    "kraje delegacji",
+    "środki transportu",
+    "koszt wyżywienia",
+    "koszt zakwaterowania",
+    "koszt transportu",
+    "inne koszty",
+    "numer konta bankowego"
+  ],
+  "texts": [
+    {
+      "data": "Przesyłam raport z mojej ostatniej delegacji służbowej, która miała miejsce w okresie od 12 do 18 listopada. Podczas tej podróży odwiedzałem naszych partnerów biznesowych w Niemczech (od 12 listopada 12:00 do 14 listopada 15:00), Francji (od 14 listopada 15:00 do 17 listopada 18:00) i Włoszech (od 17 listopada 18:00 do 18 listopada 21:00), aby omówić wspólne projekty i strategie rozwoju. Koszty związane z delegacją wyniosły łącznie 4000 euro. Obejmują one bilety lotnicze: 1500 euro, zakwaterowanie w hotelach: 1000 euro, opłaty za wynajem samochodu: 500 euro, a także wyżywienie: 300 euro (9 posiłków w Niemczech, 2 posiłki we Francji i 3 posiłki we Włoszech) i koszty związane z działalnością biznesową: 700 euro. Wszystkie opłaty rozliczałem kartą służbową. Dołączam do wiadomości wszystkie rachunki i faktury, które potwierdzają te wydatki. Podczas delegacji udało mi się nawiązać ważne kontakty oraz zawrzeć kilka umów handlowych, co będzie miało pozytywny wpływ na naszą firmę. Proszę o rozpatrzenie mojego wniosku i zwrot kosztów na konto: PL49 1020 2892 2276 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": "n/a",
+        "data wyjazdu": [
+          "12 listopada"
+        ],
+        "data powrotu": [
+          "18 listopada"
+        ],
+        "cele podróży": [
+          "omówienie wspólnych projektów i strategi rozwoju",
+          "nawiązanie ważnych kontaktów oraz zawarcie kilku umów handlowych"
+        ],
+        "kraje delegacji": [
+          "Niemcy",
+          "Francja",
+          "Włochy"
+        ],
+        "środki transportu": [
+          "samolot",
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "300 euro"
+        ],
+        "koszt zakwaterowania": [
+          "1000 euro"
+        ],
+        "koszt transportu": [
+          "1500 euro",
+          "500 euro"
+        ],
+        "inne koszty": [
+          "700 euro"
+        ],
+        "numer konta bankowego": [
+          "PL49 1020 2892 2276 3005 0000 0000"
+        ]
+      },
+      "id": 0
+    },
+    {
+      "data": "Przesyłam wstępny raport dotyczący delegacji, która będzie miała miejsce w następnym tygodni, od 7 do 14 lipca. W tym okresie będę przebywać w Stanach Zjednoczonych, odwiedzając nasze oddziały w Nowym Jorku (07.07 12:00 - 10.07 godz. 15:00), San Francisco (10.07 15:00 - 12.07 godz. 15:00) i Los Angeles (12.07 15:00 - 14.07 godz. 24:00) oraz uczestnicząc w ważnych spotkaniach i konferencjach branżowych. Szacowane koszty delegacji wyniosą łącznie 5700 dolarów amerykańskich: 3000 dolarów - bilety lotnicze, 1000 dolarów - wynajem samochodu, 1000 dolarów - noclegi, 700 dolarów - posiłki (po 3 posiłki na każdy dzień delegacji). Płatności będę dokonywać kartą (4000 dolarów) oraz gotówką (pozostała suma). Głównym celem wyjazdu będzie nawiązanie nowych kontaktów biznesowych, świadczących usługi IT. Zaliczkę w kwocie 2000 dolarów proszę wpłacić na konto: PL49 1020 5678 1234 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Nowy Jork",
+          "San Francisco",
+          "Los Angeles"
+        ],
+        "data wyjazdu": [
+          "7 lipca"
+        ],
+        "data powrotu": [
+          "14 lipca"
+        ],
+        "cele podróży": [
+          "uczestnictwo w ważnych spotkaniach i konferencjach branżowych",
+          "nawiązanie nowych kontaktów biznesowych, świadczących usługi IT"
+        ],
+        "kraje delegacji": [
+          "Stany Zjednoczone"
+        ],
+        "środki transportu": [
+          "samolot",
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "700 dolarów"
+        ],
+        "koszt zakwaterowania": [
+          "1000 dolarów"
+        ],
+        "koszt transportu": [
+          "3000 dolarów",
+          "1000 dolarów"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL49 1020 5678 1234 3005 0000 0000"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "data": "Chciałbym przekazać raport z mojej ostatniej delegacji służbowej, która miała miejsce od 5 do 10 października. W tym czasie odwiedziłem naszych klientów w Krakowie (5-7.10), Warszawie (7.10-9.10)  i Poznaniu (9-10.10), aby omówić nowe projekty i nawiązać relacje biznesowe. Koszty podróży wyniosły łącznie 4500 zł. Obejmują one bilety lotnicze na trasie Warszawa-Kraków, Kraków - Poznań, Poznań - Warszawa (łącznie 2000 zł), taksówki do oraz z lotnisk (500 zł), zakwaterowanie w hotelach (800 zł) oraz wyżywienie (6 posiłków w Krakowie, 7 w Warszawie, 4 w Poznaniu) (łącznie 500 zł). Dołączam do wiadomości wszystkie rachunki i potwierdzenia, w tym biletów lotniczych, faktur hotelowych oraz paragony za posiłki. Wszelkie płatności dokonywałem gotówką. Mam nadzieję, że moja podróż przyniosła pozytywne efekty dla firmy, a teraz proszę o rozpatrzenie mojego wniosku. W załączniku zawarłem wszelkie faktury, rachunki oraz bilety.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Kraków",
+          "Warszawa",
+          "Poznań"
+        ],
+        "data wyjazdu": [
+          "5 października"
+        ],
+        "data powrotu": [
+          "10 października"
+        ],
+        "cele podróży": [
+          "omówienie nowych projektów i nawiązanie relacji biznesowych"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samolot",
+          "taksówka"
+        ],
+        "koszt wyżywienia": [
+          "500 zł"
+        ],
+        "koszt zakwaterowania": [
+          "800 zł"
+        ],
+        "koszt transportu": [
+          "2000 zł",
+          "500 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": "n/a"
+      },
+      "id": 2
+    },
+    {
+      "data": "Witam, przedstawiam rozliczenie delegacji zagranicznej. Proszę o weryfikację i akceptację. Delegacja odbywała się we Włoszech od 17 maja 2021 (wylot z Katowic o 7:21) do 19 maja 2021 (przylot do Katowic o 19:43). Koszty wyżywienia wyniosły 1300 euro (łącznie 9 posiłków), koszty zakwaterowania: 700 euro, koszt transportow (loty, taksówki) wyniósł 3000 euro, inne koszty: to 300 euro, numer konta bankowego do rozliczenia delegacji to PL10105000997603123456789123. Delegacja umożliwiła mi poznanie nowych technologii, które pozwolą na rozwój firmy. Pozdrawiam, Jan Kowalski.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": "n/a",
+        "data wyjazdu": [
+          "17 maja 2021"
+        ],
+        "data powrotu": [
+          "19 maja 2021"
+        ],
+        "cele podróży": [
+          "poznanie nowych technologii, które pozwolą na rozwój firmy"
+        ],
+        "kraje delegacji": [
+          "Włochy"
+        ],
+        "środki transportu": [
+          "samolot",
+          "taksówka"
+        ],
+        "koszt wyżywienia": [
+          "1300 euro"
+        ],
+        "koszt zakwaterowania": [
+          "700 euro"
+        ],
+        "koszt transportu": [
+          "3000 euro"
+        ],
+        "inne koszty": [
+          "300 euro"
+        ],
+        "numer konta bankowego": [
+          "PL10105000997603123456789123"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "data": "Dzień dobry, poniżej dane dotyczące mojej ostatniej delegacji krajowej do Warszawy. Delegacja odbyła się w dniach 1-3 czerwca 2021. Celem delegacji była konferencja naukowa. Za transport zapłaciłem 250 zł (przejazdy kolejowe), za zakwaterowanie 700 zł, za wyżywienie 1000 zł (9 posiłków). Inne koszty wyniosły sumarycznie 80 zł. Zwrot kosztów proszę uiścić na konto: PL45109024022118274819295755. Pozdrawiam, Mateusz Nowak.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Warszawa"
+        ],
+        "data wyjazdu": [
+          "1 czerwca 2021"
+        ],
+        "data powrotu": [
+          "3 czerwca 2021"
+        ],
+        "cele podróży": [
+          "konferencja naukowa"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "kolej"
+        ],
+        "koszt wyżywienia": [
+          "1000 zł"
+        ],
+        "koszt zakwaterowania": [
+          "700 zł"
+        ],
+        "koszt transportu": [
+          "250 zł"
+        ],
+        "inne koszty": [
+          "80 zł"
+        ],
+        "numer konta bankowego": [
+          "PL45109024022118274819295755"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "data": "Hej, w załączniku przesyłam rozliczenie delegacji krajowej. Polegała ona na wizycie w oddziale naszego banku w Krakowie. Byłem tam 3 grudnia. Całą delegację zrealizawałem samochodem służbowym. Koszty wyżywienia wyniosły 100 zł (3 posiłki), koszty zakwaterowania: 200 zł, koszt transportow (samochód służbowy) wyniósł 180 zł, inne koszty związane z realizacją delegacji wyniosły 23 zł, numer konta bankowego do rozliczenia delegacji to PL73109024022938668473584944. Dzięki delegacji wyszkoliłem się w nowej technologi do obsługi dokumnetów, którą wprowadzimy w naszym oddziale. Pozdrawiam, Jan.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Kraków"
+        ],
+        "data wyjazdu": [
+          "3 grudnia"
+        ],
+        "data powrotu": [
+          "3 grudnia"
+        ],
+        "cele podróży": [
+          "wizyta w oddziale naszego banku",
+          "szkolenie z obsługi nowej technologi do obsługi dokumnetów"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samochód służbowy"
+        ],
+        "koszt wyżywienia": [
+          "100 zł"
+        ],
+        "koszt zakwaterowania": [
+          "200 zł"
+        ],
+        "koszt transportu": [
+          "180 zł"
+        ],
+        "inne koszty": [
+          "23 zł"
+        ],
+        "numer konta bankowego": [
+          "PL73109024022938668473584944"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "data": "Hej, zgodnie z umową z dnia 14.01.2019 r. przesyłam dane delegacji do Hamburga (17.01.2019 r. 7:00 do 20.01.2019 r.). W ramach delegacji odwiedziłem port i zweryfikowałem stan realizacji umowy. Wizyta przebiegła pomyślnie. Koszty delegacji poniżej: bilety lotnicze: 520,22 euro (dwa, Warszawa->Hambrug->Warszawa); wynajem samochodu: 203,1 euro (na 3 dni); noclegi: 344 euro (3 noce); posiłki: 122,1 euro (3 dni * 3 posiłki); paliwo, parking, itp.: 312,33 euro. Zwrot kosztów proszę na konto PL 9310 9024 0252 7149 3994 2343 89. Pozdrawiam, Jakub Jankowiak.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Hamburg"
+        ],
+        "data wyjazdu": [
+          "17.01.2019"
+        ],
+        "data powrotu": [
+          "20.01.2019"
+        ],
+        "cele podróży": [
+          "odwiedzenie portu i weryfikacja stanu realizacji umowy"
+        ],
+        "kraje delegacji": [
+          "Niemcy"
+        ],
+        "środki transportu": [
+          "samolot",
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "122,1 euro"
+        ],
+        "koszt zakwaterowania": [
+          "344 euro"
+        ],
+        "koszt transportu": [
+          "520,22 euro",
+          "203,1 euro"
+        ],
+        "inne koszty": [
+          "312,33 euro"
+        ],
+        "numer konta bankowego": [
+          "PL 9310 9024 0252 7149 3994 2343 89"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "data": "Za tydzień, 28.11 wyjeżdżam na delegację służbową, wracam 4.12. Delegacja dotyczy ustalenia szczegółów projektu NKZPN z naszymi partnerami z Francji. Spotkanie będzie miało miejsce w Paryżu, polecę tam samolotem, bilety w obie strony kosztują 1000 euro. Dodatkowo dochodzą koszty zakwaterowania - 800 euro oraz wyżywienia - ok. 400 euro. Będę też potrzebował zaliczki w wysokości 400 € na konto PL49 1221 2892 2276 3995 0001 0000. Wszystkie płatności będę wykonywał kartą służbową.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Paryż"
+        ],
+        "data wyjazdu": [
+          "28.11"
+        ],
+        "data powrotu": [
+          "4.12"
+        ],
+        "cele podróży": [
+          "ustalenie szczegółów projektu NKZPN z naszymi partnerami z Francji"
+        ],
+        "kraje delegacji": [
+          "Francja"
+        ],
+        "środki transportu": [
+          "samolot"
+        ],
+        "koszt wyżywienia": [
+          "400 euro"
+        ],
+        "koszt zakwaterowania": [
+          "800 euro"
+        ],
+        "koszt transportu": [
+          "1000 euro"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL49 1221 2892 2276 3995 0001 0000"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "data": "Zgłaszam raport z zakończonej delegacji, która miała miejsce pod koniec ubiegłego miesiąca: 25-31 listopada. W trakcie tego wyjazdu przedstawiłem nasz produkt na targach w Rzymie, Włochy (25-27.11), gdzie dojechałem wynajętym samochodem (koszt 250 euro). Prezentacja okazała się wielkim sukcesem, ponieważ po niej odezwało się do mnie wielu potencjalnych, nowych klientów. Następnie udałem się na rozmowy biznesowe z naszymi partnerami z MonoSpec w Hiszpanii (27-31.11), ponownie wynajmując auto (100 euro). Stamtąd wróciłem samolotem, bilet kosztował 140 euro. Wszystkie koszty transportu opłacałem gotówką. Dochodzą do tego koszty zakwaterowania (1000 euro), wyżywienia (450 euro) oraz operacji biznesowych (70 euro). Proszę o zwrot kosztów delegacji na moje konto bankowe o numerze: PL49 1020 1137 2276 4407 0000 1102.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Rzym"
+        ],
+        "data wyjazdu": [
+          "25 listopada"
+        ],
+        "data powrotu": [
+          "31 listopada"
+        ],
+        "cele podróży": [
+          "przedstawienie naszego produktu na targach",
+          "rozmowy biznesowe z naszymi partnerami z MonoSpec"
+        ],
+        "kraje delegacji": [
+          "Włochy, Hiszpania"
+        ],
+        "środki transportu": [
+          "samochód",
+          "samolot"
+        ],
+        "koszt wyżywienia": [
+          "450 euro"
+        ],
+        "koszt zakwaterowania": [
+          "1000 euro"
+        ],
+        "koszt transportu": [
+          "250 euro",
+          "100 euro",
+          "140 euro"
+        ],
+        "inne koszty": [
+          "70 euro"
+        ],
+        "numer konta bankowego": [
+          "PL49 1020 1137 2276 4407 0000 1102"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "data": "Przesyłam sprawozdanie z mojej ostatniej podróży służbowej, która miała miejsce od 5 do 12 marca. W tym okresie odwiedziłem nasze filie w Londynie (05.03, 12:00 - 08.03, 15:00), Berlinie (08.03, 15:00 - 10.03, 18:00) i Madrycie (10.03, 18:00 - 12.03, 21:00), aby omówić bieżące projekty i strategie rozwoju. Koszty wyniosły łącznie 4500 funtów: bilety lotnicze (2000 funtów), zakwaterowanie w hotelach (1200 funtów), wynajem samochodu (600 funtów), wyżywienie (400 funtów) oraz dodatkowe wydatki związane z działalnością biznesową (300 funtów). Wszelkie płatności wykonywałem kartą służbową. Podczas wyjazdu udało mi się nawiązać nowe relacje biznesowe i rozwinąć współpracę z naszymi partnerami. Proszę o rozpatrzenie mojego sprawozdania i dokonanie zwrotu kosztów na konto: PL49 1020 4567 7890 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Londyn",
+          "Berlin",
+          "Madryt"
+        ],
+        "data wyjazdu": [
+          "5 marca"
+        ],
+        "data powrotu": [
+          "12 marca"
+        ],
+        "cele podróży": [
+          "omówienie bieżących projektów i strategii rozwoju",
+          "nawiązanie nowych relacji biznesowych",
+          "rozwinięcie współpracy z naszymi partnerami"
+        ],
+        "kraje delegacji": [
+          "Anglia",
+          "Niemcy",
+          "Hiszpania"
+        ],
+        "środki transportu": [
+          "samolot",
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "400 funtów"
+        ],
+        "koszt zakwaterowania": [
+          "1200 funtów"
+        ],
+        "koszt transportu": [
+          "2000 funtów",
+          "600 funtów"
+        ],
+        "inne koszty": [
+          "300 funtów"
+        ],
+        "numer konta bankowego": [
+          "PL49 1020 4567 7890 3005 0000 0000"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "data": "Chciałbym poinformować o mojej nadchodzącej podróży służbowej, planowanej od 2 do 8 lipca. W tym czasie będę odwiedzał nasze oddziały w Singapurze (2-4), Sydney (4-7) i Auckland (7-8). Szacowane koszty delegacji wyniosą 5500 dolarów nowozelandzkich, w tym bilety lotnicze (2500 NZD), wynajem samochodu (1000 NZD), zakwaterowanie (1200 NZD) oraz wyżywienie (800 NZD). Planuję dokonywać płatności głównie kartą służbową, ale także gotówką na kwotę 1500 NZD. Celem tej podróży jest analiza projektów oraz spotkania z kluczowymi partnerami biznesowymi z NBBP. Proszę o przyznanie zaliczki w wysokości 3000 NZD na konto: PL49 1020 3456 7890 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Singapur",
+          "Sydney",
+          "Auckland"
+        ],
+        "data wyjazdu": [
+          "2 lipca"
+        ],
+        "data powrotu": [
+          "8 lipca"
+        ],
+        "cele podróży": [
+          "analiza projektów oraz spotkanie z kluczowymi partnerami biznesowymi z NBBP"
+        ],
+        "kraje delegacji": [
+          "Singapur",
+          "Australia",
+          "Nowa Zelandia"
+        ],
+        "środki transportu": [
+          "samolot",
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "800 NZD"
+        ],
+        "koszt zakwaterowania": [
+          "1200 NZD"
+        ],
+        "koszt transportu": [
+          "2500 NZD",
+          "1000 NZD"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL49 1020 3456 7890 3005 0000 0000"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "data": "Planuję moją podróż służbową do Pekinu od 7 do 14 września, gdzie spotkam się z naszymi partnerami biznesowymi i omówimy aktualne projekty. Przewiduję, że koszty delegacji wyniosą około 4500 juanów chińskich, obejmujące bilety lotnicze (2000 CNY), zakwaterowanie (1200 CNY), poruszanie się taksówką (800 CNY) oraz wyżywienie (500 CNY). Proszę o przyznanie zaliczki w wysokości 2500 CNY na konto: PL49 1020 3456 7890 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Pekin"
+        ],
+        "data wyjazdu": [
+          "7 września"
+        ],
+        "data powrotu": [
+          "14 września"
+        ],
+        "cele podróży": [
+          "spotkanie z naszymi partnerami biznesowymi i omówienie aktualnych projektów"
+        ],
+        "kraje delegacji": [
+          "Chiny"
+        ],
+        "środki transportu": [
+          "samolot",
+          "taksówka"
+        ],
+        "koszt wyżywienia": [
+          "500 CNY"
+        ],
+        "koszt zakwaterowania": [
+          "1200 CNY"
+        ],
+        "koszt transportu": [
+          "2000 CNY",
+          "800 CNY"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL49 1020 3456 7890 3005 0000 0000"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "data": "Cześć Neula! Chciałbym przekazać raport z mojej ostatniej delegacji, na którą wyjechałem 5 października. W jej trakcie miała miejsce wizyta w Sztokholmie, która była głównie poświęcona negocjacjom z potencjalnymi inwestorami, natomiast później w Kopenhadze omawiałem sprawy operacyjne z zespołem. Koszty całkowite wyniosły 8000 euro, w tym bilety lotnicze 3000 euro, zakwaterowanie 1000, wynajem samochodu 2000 euro, wyżywienie 1500 oraz dodatkowe wydatki operacyjne, na które wydałem 500 euro. Proszę o rozpatrzenie i zwrot kosztów na konto: PL49 1020 5678 1234 5678 0000 0000. Z wyjazdu wróciłem 12-go października.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Sztokholm",
+          "Kopenhaga"
+        ],
+        "data wyjazdu": [
+          "5 października"
+        ],
+        "data powrotu": [
+          "12 października"
+        ],
+        "cele podróży": [
+          "negocjacje z potencjalnymi inwestorami",
+          "omówienie spraw operacyjnych z zespołem"
+        ],
+        "kraje delegacji": [
+          "Szwecja",
+          "Dania"
+        ],
+        "środki transportu": [
+          "samolot",
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "1500 euro"
+        ],
+        "koszt zakwaterowania": [
+          "1000 euro"
+        ],
+        "koszt transportu": [
+          "3000 euro",
+          "2000 euro"
+        ],
+        "inne koszty": [
+          "500 euro"
+        ],
+        "numer konta bankowego": [
+          "PL49 1020 5678 1234 5678 0000 0000"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "data": "Od 20 do 23 listopada byłem na targach techCon w Oslo. Moje wydatki to 600 euro na noclegi, 800 zł samolot, 100 euro na taksówke oraz 200 euro na jedzenie. Wnioskuje o zwrot kosztów na konto: PL26109024028595269229234921",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Oslo"
+        ],
+        "data wyjazdu": [
+          "20 listopada"
+        ],
+        "data powrotu": [
+          "23 listopada"
+        ],
+        "cele podróży": [
+          "targi techCon"
+        ],
+        "kraje delegacji": [
+          "Szwecja"
+        ],
+        "środki transportu": [
+          "samolot",
+          "taksówka"
+        ],
+        "koszt wyżywienia": [
+          "200 euro"
+        ],
+        "koszt zakwaterowania": [
+          "600 euro"
+        ],
+        "koszt transportu": [
+          "800 zł",
+          "100 euro"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL26109024028595269229234921"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "data": "W dniach 11-12 stycznia byłem na służbowej delegacji w Koninie. Rozmawiałem tam z GPO na temat przyszłej integracji naszych systemów. Paliwo kosztowało mnie 343 zł. Nocleg wraz z wyżywieniem kosztował mnie 250 zł. Wnioskuje o zwrot tych kosztów na moje konto: PL21109024024921958819847186",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Konin"
+        ],
+        "data wyjazdu": [
+          "11 stycznia"
+        ],
+        "data powrotu": [
+          "12 stycznia"
+        ],
+        "cele podróży": [
+          "rozmowa z GPO na temat przyszłej integracji systemów"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samochód"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": [
+          "250 zł"
+        ],
+        "koszt transportu": [
+          "343 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL21109024024921958819847186"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "data": "Wróciłem z dwudniowej delegacji. Trwała ona od 24 do 26 listopada. Ustalałem na niej szczegóły umowy z firmą Katon dotyczącej zlecenia produkcji. Koszty jakie poniosłem to 420 złoty na paliwo, 515 złoty na nocleg oraz 150 zł na wyżywienie. Proszę o zwrot na konto: PL87109024022926755238117647",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": "n/a",
+        "data wyjazdu": [
+          "24 listopada"
+        ],
+        "data powrotu": [
+          "26 listopada"
+        ],
+        "cele podróży": [
+          "ustalenie szczegółów umowy z firmą Katon dotyczącej zlecenia produkcji"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "150 złoty"
+        ],
+        "koszt zakwaterowania": [
+          "515 złoty"
+        ],
+        "koszt transportu": [
+          "420 złoty"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL87109024022926755238117647"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "data": "Wnioskuję o zwrot kosztów za delegację, która miała miejsce 30.8-1.9. Prowadziłem rozmowy z potencjalnym kupcem naszych usług w postaci firmy Orlen. Delegacja miała miejsce w Warszawie i jechałem tam pociągiem. Wydałem 124 zł na bilety, 740zł na nocleg, 315zł na wyżywienie i 123 zł na ubera. Proszę o zwrot na moje konto: PL79109024023787918838614241",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Warszawa"
+        ],
+        "data wyjazdu": [
+          "30.8"
+        ],
+        "data powrotu": [
+          "1.9"
+        ],
+        "cele podróży": [
+          "rozmowy z potencjalnym kupcem naszych usług w postaci firmy Orlen"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "pociąg",
+          "uber"
+        ],
+        "koszt wyżywienia": [
+          "315 zł"
+        ],
+        "koszt zakwaterowania": [
+          "740 zł"
+        ],
+        "koszt transportu": [
+          "124 zł",
+          "123 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL79109024023787918838614241"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "data": "Składam wniosek o zwrot kosztów delegacji na konto PL83109024025845965466554247. Trwała ona od 3.3 do 4.3 i miała miejse w Warszawie w siedzibie Axy. Rozmawiałem o zakupie naszego produktu i wszystkich szczegółów z tym związanych. Poniesione koszty to 399zł za nocleg, 95 zł za ubera i 140zł za wyżywienie.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Warszawa"
+        ],
+        "data wyjazdu": [
+          "3.3"
+        ],
+        "data powrotu": [
+          "4.3"
+        ],
+        "cele podróży": [
+          "rozmowa o zakupie naszego produktu i wszystkich szczegółach z tym związanych"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "uber"
+        ],
+        "koszt wyżywienia": [
+          "140 zł"
+        ],
+        "koszt zakwaterowania": [
+          "399 zł"
+        ],
+        "koszt transportu": [
+          "95 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL83109024025845965466554247"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "data": "W dniach 13-15 luty byłem na rozmowach z zleceniodawcą, ustalaliśmy szczegóły projektu. Wnioskuje o zwrot kosztów, które poniosłem w trakcie delegacji. 530zł na hotel w Lublincu, 400zł na paliwo, 210zł na jedzenie oraz 140 zł na upominek dla klienta. Zwrot na konto: PL68109024021125229854838433",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Lubliniec"
+        ],
+        "data wyjazdu": [
+          "13 luty"
+        ],
+        "data powrotu": [
+          "15 luty"
+        ],
+        "cele podróży": [
+          "rozmowy z zleceniodawcą",
+          "ustalenie szczegółów projektu"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samochód"
+        ],
+        "koszt wyżywienia": [
+          "210 zł"
+        ],
+        "koszt zakwaterowania": [
+          "530 zł"
+        ],
+        "koszt transportu": [
+          "400 zł"
+        ],
+        "inne koszty": [
+          "140 zł"
+        ],
+        "numer konta bankowego": [
+          "PL68109024021125229854838433"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "data": "Proszę o wypełnienie formularza delegacji do Warszawy na okres 10/11/2023-15/11/2023 na konferencję 'Programowanie w języku Python dla zaawanowanych'. Przejazd z Wrocławia do Warszawy pociągiem Intercity w kwocie 300 zł w dwie strony. Nocleg w hotelu Sharaton 5 nocy w cene 1000 PLN za całość pobytu. Wyżywienie w cenie 1000 PLN za całość. Proszę o zaliczkę na komunikację miejską. Zaliczkę proszę przelać na konto PL49 1020 2892 2276 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Warszawa"
+        ],
+        "data wyjazdu": [
+          "10/11/2023"
+        ],
+        "data powrotu": [
+          "15/11/2023"
+        ],
+        "cele podróży": [
+          "konferencja 'Programowanie w języku Python dla zaawanowanych'"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "kolej"
+        ],
+        "koszt wyżywienia": [
+          "1000 PLN"
+        ],
+        "koszt zakwaterowania": [
+          "1000 PLN"
+        ],
+        "koszt transportu": [
+          "300 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL49 1020 2892 2276 3005 0000 0000"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "data": "Chciałem wystąpić o wyjazd delegacyjny do Zakopanego na szkolenie z zakresu tworzenia aplikacji biznesowych w Excelu odywający się w dniach od 1/5/2023 do 5/5/2023. Przejazd z Wrocławia do Krakowa pociągiem Intercity w kwocie 350 zł a z Krakowa do Zakopanego autobusem linii PKS w kwocie 200 zł w dwie strony. Nocleg w hotelu Gubałówka 5 nocy w cene 2000 PLN. Wyżywienie w cenie 1000 PLN za całość. Proszę o zaliczkę na pokrycie kosztów przelać na konto PL49 1020 2892 2276 3005 0000 0000.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Zakopane"
+        ],
+        "data wyjazdu": [
+          "1/5/2023"
+        ],
+        "data powrotu": [
+          "5/5/2023"
+        ],
+        "cele podróży": [
+          "szkolenie z zakresu tworzenia aplikacji biznesowych w Excelu"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "kolej",
+          "autobus"
+        ],
+        "koszt wyżywienia": [
+          "1000 PLN"
+        ],
+        "koszt zakwaterowania": [
+          "2000 PLN"
+        ],
+        "koszt transportu": [
+          "350 zł",
+          "200 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL49 1020 2892 2276 3005 0000 0000"
+        ]
+      },
+      "id": 20
+    },
+    {
+      "data": "Piotr wysyła mnie na delgację do Paryża na targi Business Insider. Mam tam wygłosić prezentację. Wylot jest z Warszawy do Paryża w dniu 10/12/2023 a powrót 13/12/2023. Przelot na miejsce i z powrotem 5000 EURO klasą biznesową. Będę spał hotelu Hilton przy Rue Les Parisiens 10. Koszt noclegów to 3000 Euro. Wyżywienie jest w cenie. Dieta to 300 Euro na dzień. Poproszę o zaliczkę na moje konto walutowe PL77 1090 2402 3569 5746 3499 4394.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Paryż"
+        ],
+        "data wyjazdu": [
+          "10/12/2023"
+        ],
+        "data powrotu": [
+          "13/12/2023"
+        ],
+        "cele podróży": [
+          "wygłoszenie prezentacji"
+        ],
+        "kraje delegacji": [
+          "Francja"
+        ],
+        "środki transportu": [
+          "samolot"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": [
+          "3000 Euro"
+        ],
+        "koszt transportu": [
+          "5000 EURO"
+        ],
+        "inne koszty": [
+          "1200 Euro"
+        ],
+        "numer konta bankowego": [
+          "PL77 1090 2402 3569 5746 3499 4394"
+        ]
+      },
+      "id": 21
+    },
+    {
+      "data": "Basiu wprowadź do systemu delegację dla Piotra Brzęczyszczykiewicza. Leci do San Francisco na konferencje klimatyczną  'Użyj LLMów do wszystkiego co się rusza i bądź gość'. Niech nas tam zaprezentuje na preleckcji przed Ianem LeCunem. Konferencja  jest od 11 marca 2024 do 17 marca 2024 tak więc trzeba mu zorganizować dolot do Zatoki najdalej na 9 marca a wylot zaraz po  konferencji albo na drugi dzień. Postaraj się zabookować Casablanca Hotel tam gdzie nocowaliśmy ostatnio z Piotrem. Koszt hotelu nie powinien przekroczyć 2000 USD. Przelot weź dla niego klasą ekonomiczną z Berlina z przesiadką w Londynie, myślę ze koszt podróży zamknie się w kwocie 2500 Euro. Dodatkowo wypłać mu na to wszystko zaliczkę na firmowe konto GB 82BA RC20 0404 9538 2155 w UK. Acha daj mu jeszcze dietę 500 USD.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "San Francisco"
+        ],
+        "data wyjazdu": [
+          "9 marca 2024"
+        ],
+        "data powrotu": [
+          "18 marca 2024"
+        ],
+        "cele podróży": [
+          "konferencja klimatyczna 'Użyj LLMów do wszystkiego co się rusza i bądź gość'",
+          "prezentacja na preleckcji przed Ianem LeCunem"
+        ],
+        "kraje delegacji": [
+          "Stany Zjednoczone"
+        ],
+        "środki transportu": [
+          "samolot"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": [
+          "2000 USD"
+        ],
+        "koszt transportu": [
+          "2500 Euro"
+        ],
+        "inne koszty": [
+          "500 USD"
+        ],
+        "numer konta bankowego": [
+          "GB 82BA RC20 0404 9538 2155"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "data": "Jadę w przyszłym tygodniu, 19 marca do Krakowa - pokazują nowy system w Elektowni Kraków. Będę tam do 23 marca. Zarezerwowałem Hotel Redis na te 4 nocy co będzie kosztować 800 zł. Jadę pociągiem Inter City z Wrocławia. Cena biletu w dwie strony to 300 zł. Poproszę przelew na konto PL71 1090 2402 1586 3742 2297 461 zaliczki na pokrycie kosztów",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Kraków"
+        ],
+        "data wyjazdu": [
+          "19 marca"
+        ],
+        "data powrotu": [
+          "23 marca"
+        ],
+        "cele podróży": [
+          "zobaczenie nowego systemu w Elektrowni Kraków"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "kolej"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": [
+          "800 zł"
+        ],
+        "koszt transportu": [
+          "300 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "PL71 1090 2402 1586 3742 2297 4612"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "data": "Muszę wyjechać służbowo na spotkanie z klientem w Warszawie. Zabookuj mi przelot samolotem do Warszawy tak, żebym był w Warszawie jutro tj w środę przed 12:00. Biznes klasa w kwocie do 2 tys. zł. Powrót w piątek przed 17:00. Spotykam się NetGuru. Jest szansa na pozyskanie kontraktu na budowę systemu zarządzania dokumentami w NetGuru. Spanie w Hotelu Raddison na Powstańców Warszawy - 300 zł za noc. Diet nie potrzebuję natomiast zaliczkę na hotel przelej proszę na konto służbowe.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Warszawa"
+        ],
+        "data wyjazdu": [
+          "środa"
+        ],
+        "data powrotu": [
+          "piątek"
+        ],
+        "cele podróży": [
+          "spotkanie z NetGuru"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samolot"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": [
+          "600 zł"
+        ],
+        "koszt transportu": [
+          "2000 zł"
+        ],
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "konto służbowe"
+        ]
+      },
+      "id": 24
+    },
+    {
+      "data": "Wybieram się na spotkania z klientami. Na początek Toruń, 4.12., później Bydgoszcze 5.12., Trójmiasto 6-7.12. Ostatni punkt to Olsztyn. Wracam 8 grudnia. Pojadę samochodem prywatnym i później rozliczę kilometrówkę.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Toruń",
+          "Bydgoszcz",
+          "Trójmiasto",
+          "Olsztyn"
+        ],
+        "data wyjazdu": [
+          "4.12"
+        ],
+        "data powrotu": [
+          "8 grudnia"
+        ],
+        "cele podróży": [
+          "spotkania z klientami"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "samochód prywatny"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": "n/a",
+        "koszt transportu": "n/a",
+        "inne koszty": "n/a",
+        "numer konta bankowego": "n/a"
+      },
+      "id": 25
+    },
+    {
+      "data": "Jadę do Lozanny na konferencję „AI XXI wieku”. Wylot z Warszawy 3 stycznia, powrót 6. Hotele zarezerwowane. Proszę o przelanie zaliczki w wysokości 400 euro.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Lozanna"
+        ],
+        "data wyjazdu": [
+          "3 stycznia"
+        ],
+        "data powrotu": [
+          "6 stycznia"
+        ],
+        "cele podróży": [
+          "konferencja „AI XXI wieku”"
+        ],
+        "kraje delegacji": [
+          "Szwajcaria"
+        ],
+        "środki transportu": [
+          "samolot"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": "n/a",
+        "koszt transportu": "n/a",
+        "inne koszty": [
+          "400 euro"
+        ],
+        "numer konta bankowego": "n/a"
+      },
+      "id": 26
+    },
+    {
+      "data": "Wyjeżdżam w delegację do Londynu, na rozmowy z potencjalnym inwestorem. Będę tam od 28 lutego do 2 marca. Hotel zapłacony przelewem. Resztę kosztów pokryję kartą służbową.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "zagraniczna"
+        ],
+        "miasta lub regiony delegacji": [
+          "Londyn"
+        ],
+        "data wyjazdu": [
+          "28 lutego"
+        ],
+        "data powrotu": [
+          "2 marca"
+        ],
+        "cele podróży": [
+          "rozmowy z potencjalnym inwestorem"
+        ],
+        "kraje delegacji": [
+          "Wielka Brytania"
+        ],
+        "środki transportu": "n/a",
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": "n/a",
+        "koszt transportu": "n/a",
+        "inne koszty": "n/a",
+        "numer konta bankowego": [
+          "karta służbowa"
+        ]
+      },
+      "id": 27
+    },
+    {
+      "data": "W dniach 14-16 kwietnia będę robił szkolenie dla naszego dystrybutora w Rzeszowie. Potrzebuję pieniądze na pokrycie kosztów. Jakieś 500 złotych.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Rzeszów"
+        ],
+        "data wyjazdu": [
+          "14 kwietnia"
+        ],
+        "data powrotu": [
+          "16 kwietnia"
+        ],
+        "cele podróży": [
+          "szkolenie dla naszego dystrybutora"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": "n/a",
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": "n/a",
+        "koszt transportu": "n/a",
+        "inne koszty": [
+          "500 złotych"
+        ],
+        "numer konta bankowego": "n/a"
+      },
+      "id": 28
+    },
+    {
+      "data": "W pierwszy poniedziałek czerwca zaczynam w Lądku Zdroju szkolenie z zakresu ISO 27001. Następnie w środę, 5.06., w Ząbkowicach spotykam się z kandydatem na full-stack developera. Wracam do Warszawy jeszcze w środę lub w czwartek przed południem, zależnie od połączeń kolejowych. Prośba o zaliczkę w kwocie 650 zł.",
+      "ground_truth": {
+        "typ delegacji (krajowa lub zagraniczna)": [
+          "krajowa"
+        ],
+        "miasta lub regiony delegacji": [
+          "Lądek Zdrój",
+          "Ząbkowice"
+        ],
+        "data wyjazdu": [
+          "pierwszy poniedziałek czerwca"
+        ],
+        "data powrotu": [
+          "6.06"
+        ],
+        "cele podróży": [
+          "szkolenie z zakresu ISO 27001",
+          "spotkanie z kandydatem na full-stack developera"
+        ],
+        "kraje delegacji": [
+          "Polska"
+        ],
+        "środki transportu": [
+          "kolej"
+        ],
+        "koszt wyżywienia": "n/a",
+        "koszt zakwaterowania": "n/a",
+        "koszt transportu": "n/a",
+        "inne koszty": [
+          "650 zł"
+        ],
+        "numer konta bankowego": "n/a"
+      },
+      "id": 29
+    }
+  ]
+}
