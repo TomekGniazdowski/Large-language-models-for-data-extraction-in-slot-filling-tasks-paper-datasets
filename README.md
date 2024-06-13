@@ -11,7 +11,7 @@ The repository contains "Leaves Dataset" and "Delegations Dataset" used as part 
 In case of any question do not hesitate to ask 😄 via emails: marek.bazan@pwr.edu.pl & tomasz.gniazdowski@jtweston.pl.
 
 ## Citation
-```json
+```
 @InProceedings{10.1007/978-3-031-61857-4_1,
 author="Bazan, Marek
 and Gniazdowski, Tomasz
